@@ -110,7 +110,7 @@ export const App = () => {
             Альфа-Смарт
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" color="secondary">
-            Первый месяц бесплатно, далее — 399 ₽ в месяц
+            Первый месяц бесплатно, <br /> далее — 399 ₽ в месяц
           </Typography.Text>
         </div>
 
