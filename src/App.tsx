@@ -121,8 +121,7 @@ export const App = () => {
             font="system"
             tag="h2"
             weight="bold"
-            view="small"
-            className={appSt.productsTitle}
+            view="medium"
           >
             В вашей подписке
           </Typography.TitleResponsive>
@@ -135,16 +134,17 @@ export const App = () => {
                   view="small"
                   weight="bold"
                   tag="h3"
-                  className={appSt.productTitle}
                 >
                   {product.title}
                 </Typography.TitleResponsive>
 
+                <Gap size={8} />
+
                 <Typography.Text
-                  view="secondary-large"
+                  view="primary-medium"
                   tag="p"
                   color="secondary"
-                  className={appSt.productText}
+                  defaultMargins={false}
                 >
                   {product.text}
                 </Typography.Text>
@@ -166,8 +166,7 @@ export const App = () => {
             font="system"
             tag="h2"
             weight="bold"
-            view="small"
-            className={appSt.productsTitle}
+            view="medium"
           >
             Семейный доступ
           </Typography.TitleResponsive>
@@ -180,16 +179,17 @@ export const App = () => {
                   view="small"
                   weight="bold"
                   tag="h3"
-                  className={appSt.productTitle}
                 >
                   {product.title}
                 </Typography.TitleResponsive>
 
+                <Gap size={8} />
+
                 <Typography.Text
-                  view="secondary-large"
+                  view="primary-medium"
                   tag="p"
                   color="secondary"
-                  className={appSt.productText}
+                  defaultMargins={false}
                 >
                   {product.text}
                 </Typography.Text>
