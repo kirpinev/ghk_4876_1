@@ -54,7 +54,7 @@ const products: Array<Product> = [
     image: cashback,
   },
   {
-    title: "+1% годовых",
+    title: "+3% годовых",
     text: "По накопительному Альфа-Счёту на ежедневный остаток",
     image: percent,
   },
